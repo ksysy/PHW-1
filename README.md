@@ -17,3 +17,10 @@
   - SVC(kernel=kernel, gamma=gamma)
     - kernel = ["linear", "poly", "rbf", "sigmoid"]
     - gamma = [0.001, 0.01, 0.1, 1, 10]
+
+### Returns
+- `best_params`
+  -  `best_scaler`
+  -  `best_model`
+  -  `best_cv_k`
+  -  `maxScore`
