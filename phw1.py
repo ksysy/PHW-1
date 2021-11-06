@@ -70,7 +70,7 @@ def findBestOptions(
 
 #Source Code
 #wisconsin Data load
-df = pd.read_csv("C:/Users/ksy87/Univ/2021.3-2/Machine Learning/ML-week-3-lectures/PHW-Lab1/breast-cancer-wisconsin.data",
+df = pd.read_csv("./breast-cancer-wisconsin.data",
 names=['Sample code number', 'Clump Thickness', 'Uniformity of Cell Size',
     'Uniformity of Cell Shape', 'Marginal Adhesion', 'Single Epithelial Cell Size',
     'Bare Nuclei', 'Bland Chromatin', 'Normal Nucleoli', 'Mitoses', 'Class'
