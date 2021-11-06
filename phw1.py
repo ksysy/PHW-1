@@ -92,11 +92,8 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 results=findBestOptions(X_train, y_train)
 print(results)
 
-result=results['best_params_']
-best_model=result['best_model']
-best_scaler=result['best_scaler']
 
-# #visualization
+#visualization
 sns.set_style("whitegrid")
 sns.pairplot(df, hue="Class")
 plt.show()
